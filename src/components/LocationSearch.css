@@ -1,0 +1,86 @@
+.search-page-container {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Keep input aligned left */
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-start;
+}
+
+/* Search Input */
+.search-input-full-page {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 12px 12px 40px; /* left space for icon */
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #fafafa;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='%23999' stroke-width='2' viewBox='0 0 24 24'%3E%3Ccircle cx='10' cy='10' r='6'/%3E%3Cpath d='M14 14l6 6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 12px center;
+     position: relative;
+    caret-color: black;
+    font-family: monospace; /* makes caret look thicker */
+    font-weight: 500;
+}
+
+
+.search-input-full-page:focus::after {
+    content: '';
+    position: absolute;
+    left: 40px; /* same as your left padding for icon */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px; /* thickness of caret */
+    height: 1.2em;
+    background-color: black; /* caret color */
+    animation: blink 1s step-start infinite;
+}
+
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+/* Quote in the center */
+.travel-quote {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+
+/* Suggestions list */
+.suggestions-list-full-page {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    width: auto;
+}
+
+.suggestion-item {
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items:flex-start ;
+    gap: 10px;
+}
+
+.suggestion-item:hover {
+    background-color: #f4f4f4;
+}
+
+/* Loading indicator */
+.loading-indicator {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #777;
+}

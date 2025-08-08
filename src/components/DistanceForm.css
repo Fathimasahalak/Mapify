@@ -1,0 +1,126 @@
+/* DistanceForm.css OR your global CSS */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column; /* stack hero text above form */
+  justify-content: center; /* center vertically */
+  align-items: center; /* center horizontally */
+  min-height: 100vh;
+   /* full page height */
+  background-color: white;
+  width: 100%;
+}
+
+
+.hero-text{
+    
+   font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px; /* space between text & form */
+  text-align: center;
+  font-family: poppins;
+}
+.form-wrapper {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: white;
+  background-size: cover;
+  
+  
+  
+}
+
+.location-form {
+  width: 90%;
+  max-width: 1400px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  
+}
+label {
+  display: flex;
+  align-items: center; /* centers icon with text */
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  color: #222;
+  position: relative;
+}
+
+
+.location-icon {
+    position: absolute;
+    left: -25px;
+    top: 15px;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  color: black;
+
+  
+}
+
+.input-area {
+  flex: 1;
+}
+
+.input-area input::placeholder {
+  color: inherit;   /* takes the same color as your input text */
+  opacity: 1;       /* make sure it's not faded */
+}
+.input-area input {
+  background: transparent;
+  color: black; /* or white depending on contrast */
+}
+
+.input-area input::placeholder {
+  color: rgba(0, 0, 0, 0.6); 
+  
+}
+
+.input-area label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.input-area input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.3rem 0;
+}
+
+button {
+  width: 100%;
+  background-color: #1A3B34;
+  color: white;
+  border: none;
+  border-radius: 30px; /* already big enough */
+  padding: 0.9rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: #777;
+}
