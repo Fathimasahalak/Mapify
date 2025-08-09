@@ -11,7 +11,7 @@ Mapify 🎯
 
 
 ### Project Description
-it shows actual routes between cities but pairs them with insulting fitness comments like "Go burn some calories! " or "Time to walk off those coconut laddus! " - giving you real directions while offensively demotivating you at the same time.
+It shows actual routes between cities but pairs them with insulting fitness comments like "Go burn some calories! " or "Time to walk off those coconut laddus! " - giving you real directions while offensively demotivating you at the same time.
 
 ### The Problem (that doesn't exist)
 We're addressing the problem of navigation apps being too helpful
@@ -23,18 +23,24 @@ Our useless maps project satirically "solves" the issue of people becoming overl
 ### Technologies/Components Used
 For Software:
 - Languages used: 
-  JavaScript
+  JavaScript,JSX
   html
   css
+  
 - Frameworks used:
+  React
   
 - Libraries used
-  
+  react-icons, react-router-dom
+
 - Tools used
   VS Code
   ChatGPT
   Gemini 
-
+  GitHub
+  Render
+  
+- APIs: OpenRouteService API
 
 
 
@@ -65,6 +71,7 @@ Routing & API: OpenRouteService API (or similar) for calculating distances betwe
 Styling: CSS modules for scoped and modular styles.
 
 Git clone: https://github.com/Fathimasahalak/Mapify
+
 # Installation
 npx create-react-app mapify
 cd mapify
@@ -78,23 +85,32 @@ For Software:
 
 # Screenshots (Add at least 3)
 <img width="1920" height="1080" alt="Screenshot 2025-08-09 053549" src="https://github.com/user-attachments/assets/409b5617-d356-4ba6-8902-85b2fe8534d5" />
+Shows the landing page with source and destination input fields.
+
 <img width="1920" height="1080" alt="Screenshot 2025-08-09 053503" src="https://github.com/user-attachments/assets/8dc7c20a-0664-45c7-a2fa-cb461828d5e3" />
+Displays calculated distance and funny/offensive notifications.
+
 <img width="1920" height="1080" alt="Screenshot 2025-08-09 053517" src="https://github.com/user-attachments/assets/0cb61467-080e-41a4-b266-fc94078e08cf" />
+Interactive map showing the route between the two locations.
+
 <img width="1920" height="1080" alt="Screenshot 2025-08-09 053549" src="https://github.com/user-attachments/assets/408a0f0e-269f-4adf-998a-e191025511ee" />
 <img width="1920" height="1080" alt="Screenshot 2025-08-09 053602" src="https://github.com/user-attachments/assets/a4fcaa83-268c-432d-a1a2-2bb85310dcc9" />
 
 
+Diagrams
+Workflow:![WhatsApp Image 2025-08-09 at 05 53 15_35564881](https://github.com/user-attachments/assets/7e849617-1033-4a89-9866-40475abfe3ce)
 
 
 
 
 ### Project Demo:
 https://drive.google.com/drive/folders/1Jdm0HHn7L3HMbhGLoL_4CoUzLOmiUUT4
+This video demonstrates the app’s main features: inputting locations, calculating distance, and displaying quirky notifications.
+
+
 
 deployed link: https://mapify-7la5.onrender.com
 
-Diagrams
-Workflow:![WhatsApp Image 2025-08-09 at 05 53 15_35564881](https://github.com/user-attachments/assets/7e849617-1033-4a89-9866-40475abfe3ce)
 
 ## Team Contributions
 - Fathima sahala k: 
