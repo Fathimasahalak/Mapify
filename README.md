@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+Mapify 🎯
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Basic Details
+### Team Name: Useless
 
-In the project directory, you can run:
 
-### `npm start`
+### Team Members
+- Team Lead: Fathima Sahala K - NSS College of Engineering, Palakkad
+- Member 2: Girik Sagar - NSS College of Engineering, Palakkad
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project Description
+it shows actual routes between cities but pairs them with insulting fitness comments like "Go burn some calories! " or "Time to walk off those coconut laddus! " - giving you real directions while offensively demotivating you at the same time.
 
-### `npm test`
+### The Problem (that doesn't exist)
+We're addressing the problem of navigation apps being too helpful
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### The Solution (that nobody asked for)
+Our useless maps project satirically "solves" the issue of people becoming overly dependent on GPS navigation by creating an app that deliberately provides no useful assistance - instead giving dismissive responses, requiring users to ask adults for help, or insulting their fitness levels while showing routes, thus forcing people to think for themselves or seek human interaction rather than relying on technology.
 
-### `npm run build`
+## Technical Details
+### Technologies/Components Used
+For Software:
+- Languages used: 
+  JavaScript
+  html
+  css
+- Frameworks used:
+  
+- Libraries used
+  
+- Tools used
+  VS Code
+  ChatGPT
+  Gemini 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Implementation
+For Software: 
+# Installation
+npx create-react-app mapify
+cd mapify
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Run
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Project Documentation
+For Software:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Screenshots (Add at least 3)
+<img width="1920" height="1080" alt="Screenshot 2025-08-09 053549" src="https://github.com/user-attachments/assets/409b5617-d356-4ba6-8902-85b2fe8534d5" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-09 053503" src="https://github.com/user-attachments/assets/8dc7c20a-0664-45c7-a2fa-cb461828d5e3" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-09 053517" src="https://github.com/user-attachments/assets/0cb61467-080e-41a4-b266-fc94078e08cf" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-09 053549" src="https://github.com/user-attachments/assets/408a0f0e-269f-4adf-998a-e191025511ee" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-09 053602" src="https://github.com/user-attachments/assets/a4fcaa83-268c-432d-a1a2-2bb85310dcc9" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Project Demo:
+https://drive.google.com/drive/folders/1Jdm0HHn7L3HMbhGLoL_4CoUzLOmiUUT4
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Team Contributions
+- Fathima sahala k: 
+Developed the React frontend components including LocationSearch and DistanceForm
 
-### Making a Progressive Web App
+Integrated OpenRouteService API for distance calculation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Implemented routing and results page UI
 
-### Advanced Configuration
+- Girik Sagar: Designed the UI/UX and CSS styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Assisted with API integration and testing
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
+Made with ❤ at TinkerHub Useless Projects 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
